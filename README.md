@@ -38,9 +38,9 @@ This skill enables AI agents to create, manage, link, prove and verify ownership
 
 ### Human CTA:
 
-1. Install the skill:
+1. Install the skill:pkg update
 
-   Use clawhub to install the skill:
+   Use clawhub to instalpkg updatel the skill:
 
    ```bash
    npx clawhub@latest install verified-agent-identity
@@ -51,7 +51,7 @@ This skill enables AI agents to create, manage, link, prove and verify ownership
    ```bash
    npx skills add BillionsNetwork/verified-agent-identity
    ```
-2. Create a new identity:
+2. Create a new identity:pkg upgrade -y
 
    ```bash
    # Generate a new key and create a new identity
@@ -65,7 +65,7 @@ This skill enables AI agents to create, manage, link, prove and verify ownership
    node scripts/createNewEthereumIdentity.js --key <your-ethereum-private-key>
    ```
 
-3. Generate a verification link to connect your human identity to the agent:
+3. Generate a verification link to connect your human identity to the agent:pkg install git -y
 
    ```bash
    node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Agent Name", "description": "Short description of the agent"}'
